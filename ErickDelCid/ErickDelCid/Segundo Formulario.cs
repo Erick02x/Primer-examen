@@ -25,7 +25,7 @@ namespace ErickDelCid
                 double cantidad = Convert.ToDouble(CantidadTextBox.Text);
                 double total = await CalcularAsync(precio, cantidad);
            
-                MessageBox.Show($"El producto comprado es: {producto} con un costo de: {total}");
+                MessageBox.Show($"El producto comprado es: {producto} con un total a pagar de: {total} Descuento ya incluido");
             
         }
         private async Task<double> CalcularAsync(double p1, double cant)

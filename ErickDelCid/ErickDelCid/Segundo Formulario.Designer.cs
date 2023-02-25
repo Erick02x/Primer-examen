@@ -40,33 +40,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(102, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(77, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Producto";
             // 
             // ProdutoTextBox
             // 
-            this.ProdutoTextBox.Location = new System.Drawing.Point(167, 66);
+            this.ProdutoTextBox.Location = new System.Drawing.Point(185, 67);
             this.ProdutoTextBox.Name = "ProdutoTextBox";
-            this.ProdutoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ProdutoTextBox.Size = new System.Drawing.Size(122, 20);
             this.ProdutoTextBox.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(102, 108);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(102, 104);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.Size = new System.Drawing.Size(57, 18);
             this.label2.TabIndex = 2;
             this.label2.Text = "Precio";
             // 
             // CalcularButton
             // 
-            this.CalcularButton.Location = new System.Drawing.Point(167, 167);
+            this.CalcularButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalcularButton.Location = new System.Drawing.Point(196, 169);
             this.CalcularButton.Name = "CalcularButton";
-            this.CalcularButton.Size = new System.Drawing.Size(75, 23);
+            this.CalcularButton.Size = new System.Drawing.Size(97, 49);
             this.CalcularButton.TabIndex = 3;
             this.CalcularButton.Text = "Calcular";
             this.CalcularButton.UseVisualStyleBackColor = true;
@@ -74,24 +77,25 @@
             // 
             // PrecioTextBox
             // 
-            this.PrecioTextBox.Location = new System.Drawing.Point(167, 105);
+            this.PrecioTextBox.Location = new System.Drawing.Point(185, 102);
             this.PrecioTextBox.Name = "PrecioTextBox";
-            this.PrecioTextBox.Size = new System.Drawing.Size(100, 20);
+            this.PrecioTextBox.Size = new System.Drawing.Size(122, 20);
             this.PrecioTextBox.TabIndex = 4;
             // 
             // CantidadTextBox
             // 
-            this.CantidadTextBox.Location = new System.Drawing.Point(167, 131);
+            this.CantidadTextBox.Location = new System.Drawing.Point(185, 132);
             this.CantidadTextBox.Name = "CantidadTextBox";
-            this.CantidadTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CantidadTextBox.Size = new System.Drawing.Size(122, 20);
             this.CantidadTextBox.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(102, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(74, 18);
             this.label3.TabIndex = 6;
             this.label3.Text = "Cantidad";
             // 
@@ -99,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(553, 386);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.CantidadTextBox);
             this.Controls.Add(this.PrecioTextBox);
